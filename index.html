@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tienda Proxy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login" id="login">
+  <h2>Login</h2>
+  <input type="text" id="user" placeholder="Usuario">
+  <input type="password" id="pass" placeholder="Contraseña">
+  <button onclick="login()">Entrar</button>
+</div>
+
+<div class="store hidden" id="store">
+  <h1>🛒 Tienda</h1>
+
+  <div class="product">
+    <h3>Proxy Certificado</h3>
+    <p>$10</p>
+    <button onclick="comprar('Proxy Certificado', 10)">Comprar</button>
+  </div>
+
+  <div class="product">
+    <h3>Fluorite</h3>
+    <p>$15</p>
+    <button onclick="comprar('Fluorite', 15)">Comprar</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
