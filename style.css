@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #000000, #0a1f44, #001f3f);
+    color: white;
+    text-align: center;
+}
+
+.login, .store {
+    margin-top: 100px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.product {
+    background: rgba(255,255,255,0.05);
+    margin: 20px auto;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
